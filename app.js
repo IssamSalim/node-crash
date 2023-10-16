@@ -14,8 +14,8 @@ mongoose.connect("mongodb+srv://issam27:123321@nodecrashcourse.ectolrt.mongodb.n
 
 app.use(express.json());
 
-app.get("/hello",(req, res) => {
-    res.send("hello")
+app.get("/",(req, res) => {
+    res.send("Welcome to our Node.js Crash Course Project")
 });
 
 app.put("/test",(req, res) => {
